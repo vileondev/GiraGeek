@@ -136,7 +136,9 @@ body {
     gap: 15px;
 }
 
-.btn{
+.bttn{
+    text-align: center;
+    text-decoration: none;
     width: 115px;
     padding: 10px 25px;
     border-radius: 25px;
@@ -148,26 +150,26 @@ body {
 }
 
 /* Botão Registrar */
-.btn-register {
+.bttn-register {
     background-color: white;
     color: #ec671b;
     border: 2px solid #ccc;
 }
 
-.btn-register:hover {
+.bttn-register:hover {
     background-color: #ec671b;
     color: white;
     border-color: #ec671b;
 }
 
 /* Botão Entrar */
-.btn-login {
+.bttn-login {
     background-color: #ec671b;
     color: white;
     border: 2px solid #ec671b;
 }
 
-.btn-login:hover {
+.bttn-login:hover {
     background-color: #d95c16;
     border-color: #d95c16;
 }
@@ -189,4 +191,38 @@ body {
 
 .menu-item:hover {
     text-decoration: underline;
+}
+
+/*Gira Cards*/
+.giracards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;        
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+/* Botão Cards */
+.bttn-cards {
+    background-color: white;
+    color: #ec671b;
+    border: 2px solid #ccc;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.bttn-cards:hover {
+    background-color: #ec671b;
+    color: white;
+    border-color: #ec671b;
+    padding: 10px 10px;
+}
+
+.titles{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px 70px;
+    padding-top: 50px;
 }
